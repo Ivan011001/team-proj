@@ -39,6 +39,26 @@ img {
   list-style: none;
 }
 
-/* .section-container {
+.section-container {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
-} */
+@media screen and (min-width: 375px) {
+  .section-container {
+    width: 365px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-container {
+    width: 734px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-container {
+    width: 1206px;
+  }
+}

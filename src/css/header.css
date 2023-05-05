@@ -1,0 +1,126 @@
+@media screen and (min-width: 375px) {
+  .link {
+    text-decoration: none;
+  }
+
+  .header {
+    background-color: #141414;
+  }
+
+  .header-container {
+    padding-top: 34px;
+    padding-bottom: 69px;
+
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .header-phone {
+    display: none;
+  }
+
+  .header-logo {
+    display: flex;
+    margin-right: 80px;
+  }
+
+  .logo-svg {
+    width: 19px;
+    height: 19px;
+    margin-right: 4px;
+  }
+
+  .text-logo {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+
+  .mobile-menu-open {
+    background-color: transparent;
+    border: none;
+  }
+
+  .mobile-menu-open__svg {
+    fill: #ffffff;
+  }
+
+  .header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    padding-top: 34px;
+    padding-bottom: 98px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .header-list {
+    display: block;
+  }
+
+  .header-phone {
+    display: block;
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-item {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.33;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+
+  .header-phone {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 1.33;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+
+    border: 1px solid #1e2827;
+    background-color: #1e2827;
+    border-radius: 8px;
+    padding: 18px 35px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-container {
+    padding-top: 24px;
+    padding-bottom: 80px;
+  }
+}

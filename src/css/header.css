@@ -1,4 +1,4 @@
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 767px) {
   .link {
     text-decoration: none;
   }
@@ -61,12 +61,20 @@
 }
 
 @media screen and (min-width: 768px) {
+  .link {
+    text-decoration: none;
+  }
+
+  .header {
+    background-color: #141414;
+  }
+
   .header-container {
     padding-top: 34px;
     padding-bottom: 98px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .header-list {
@@ -115,6 +123,33 @@
     background-color: #1e2827;
     border-radius: 8px;
     padding: 18px 35px;
+  }
+
+  .header-logo {
+    display: flex;
+    margin-right: 80px;
+  }
+
+  .logo-svg {
+    width: 19px;
+    height: 19px;
+    margin-right: 4px;
+  }
+
+  .text-logo {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+  }
+
+  .header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 

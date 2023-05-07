@@ -1,4 +1,17 @@
 .footer {
+    background-color: #1E2827;
+    color: #FFFFFF;
+    width: 100%;
+    font-weight: 400;
+
+}
+
+.footer-container {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   background-color: #1e2827;
   color: #ffffff;
   width: 100%;
@@ -107,6 +120,27 @@
     height: 50px;
   }
 
+    .footer-container {
+        padding-top: 80px;
+        padding-left: 32px;
+        padding-right: 40px;
+    }
+
+    .footer-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer-social {
+        margin-top: 0;
+    }
+
+    .footer-rights {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
   .footer-social {
     margin-top: 0;
   }
@@ -143,4 +177,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .footer-container {
+        padding-top: 104px;
+        padding-left: 132px;
+        padding-right: 132px;
+    }
+
 }
+}
+

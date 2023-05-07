@@ -12,113 +12,109 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-  background-color: #1e2827;
-  color: #ffffff;
-  width: 100%;
-  font-weight: 400;
 }
 
 .footer-logo {
-  width: 40px;
-  height: 40px;
+    width: 40px;
+    height: 40px;
 }
 
 .footer-logo-link {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-contacts {
-  font-size: 14px;
-  line-height: 1.29;
-  margin-top: 40px;
+    font-size: 14px;
+    line-height: 1.29;
+    margin-top: 40px;
 }
 
 .footer-contacts-item:last-child {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .footer-contacts-address {
-  letter-spacing: -0.02em;
+    letter-spacing: -0.02em;
 }
 
 .footer-logo-icon {
-  fill: #ffffff;
+    fill: #ffffff;
 }
 
 .footer-navigation-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 63px;
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  gap: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 63px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    gap: 14px;
 }
 
 .footer-social {
-  margin-top: 40px;
+    margin-top: 40px;
 }
 
 .footer-social-list {
-  display: flex;
-  gap: 14px;
+    display: flex;
+    gap: 14px;
 }
 
 .footer-social-item {
-  width: 40px;
-  height: 40px;
-  justify-content: center;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
 }
 
 .footer-social-link {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-social-icon {
-  fill: #ffffff;
+    fill: #ffffff;
 }
 
 .footer-rights {
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: -0.02em;
-  color: #c6cdd1;
-  opacity: 0.9;
-  margin-top: 80px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #c6cdd1;
+    opacity: 0.9;
+    margin-top: 80px;
 }
 
 .footer-rights-link {
-  color: inherit;
+    color: inherit;
 }
 
 .footer-rights-list {
-  display: flex;
-  gap: 14px;
-  margin-top: 14px;
+    display: flex;
+    gap: 14px;
+    margin-top: 14px;
 }
 
 @media screen and (max-width: 767px) {
-  .desctop {
-    display: none;
-  }
+    .desctop {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 768px) {
-  .footer-logo {
-    width: 50px;
-    height: 50px;
-  }
+    .footer-logo {
+        width: 50px;
+        height: 50px;
+    }
 
     .footer-container {
         padding-top: 80px;
@@ -141,39 +137,39 @@
         justify-content: space-between;
     }
 
-  .footer-social {
-    margin-top: 0;
-  }
+    .footer-social {
+        margin-top: 0;
+    }
 
-  .footer-rights {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-  }
+    .footer-rights {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
 
-  .footer-rights-list {
-    margin-top: 0;
-  }
+    .footer-rights-list {
+        margin-top: 0;
+    }
 
-  .footer-contacts {
-    font-size: 18px;
-    line-height: 1.33;
-  }
+    .footer-contacts {
+        font-size: 18px;
+        line-height: 1.33;
+    }
 
-  .footer-navigation-list {
-    font-size: 18px;
-    line-height: 1.33;
-    width: 81px;
-  }
+    .footer-navigation-list {
+        font-size: 18px;
+        line-height: 1.33;
+        width: 81px;
+    }
 
-  .footer-social-item {
-    width: 44px;
-    height: 44px;
-  }
+    .footer-social-item {
+        width: 44px;
+        height: 44px;
+    }
 
-  .mobile {
-    display: none;
-  }
+    .mobile {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -184,5 +180,3 @@
     }
 
 }
-}
-

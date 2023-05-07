@@ -1,3 +1,7 @@
+.sale-section {
+  padding: 80px 0;
+}
+
 .sale-container {
   padding: 0px 20px 80px 20px;
   margin: 0 auto;
@@ -119,6 +123,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sale-section {
+    padding: 128px 0;
+  }
+
   .sale-container {
     width: 768px;
     padding: 0px 32px 128px 32px;
@@ -150,6 +158,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .sale-section {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+
   .sale-container {
     width: 1280px;
     padding: 0px 52px 160px 52px;

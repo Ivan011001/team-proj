@@ -1,3 +1,7 @@
+.catalog-section {
+  padding-bottom: 80px;
+}
+
 .catalog-title {
   font-weight: 600;
   font-size: 32px;
@@ -197,6 +201,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .catalog-section {
+    padding-bottom: 128px;
+  }
+
   .catalog-product-list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -231,6 +239,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .catalog-section {
+    padding-bottom: 80px;
+  }
+
   .catalog-title {
     margin-bottom: 64px;
   }

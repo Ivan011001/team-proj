@@ -109,6 +109,12 @@
     background-color: transparent;
     border: none;
     fill: #ffffff;
+    padding: 0;
+    line-height: 0;
+  }
+
+  .button-icon_menu {
+    stroke: #ffffff;
   }
 
   .nav-menu {

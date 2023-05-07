@@ -5,7 +5,6 @@
     color: #FFFFFF;
     padding-top: 64px;
     padding-bottom: 40px;
-
 }
 
 .hero-container {
@@ -194,7 +193,6 @@
     display: block;
     width: 32px;
     height: 1px;
-    /* stroke: #FFFFFF; */
     fill: #FFFFFF;
     border: 1px solid #FFFFFF;
     margin: 9px;
@@ -204,8 +202,6 @@
     display: block;
     order: 4;
 }
-
-
 
 @media screen and (min-width: 768px) {
     .section-hero {
@@ -295,32 +291,34 @@
 
 @media screen and (min-width: 1280px) {
     .section-hero {
-        padding-top: 80px;
+        padding-top: 0;
         padding-bottom: 80px;
     }
 
     .hero-container {
+        padding-top: 80px;
         position: relative;
-        width: 1280px;
         align-content: space-between;
     }
 
     .hero-slogan {
         top: 0;
         width: 750px;
+        padding-bottom: 43px;
     }
 
     .hero-content {
         top: 0;
         right: 0;
         width: 282px;
-        margin: 0 0 0 157px;
+        height: 90px;
+        margin: 0 0 0 144px;
 
         order: 2;
     }
 
     .swiper-container {
-        top: 109px;
+        top: 80px;
         order: 3;
     }
 
@@ -328,5 +326,6 @@
         right: 0;
         width: 676px;
         margin-left: 64px;
+        padding-top: 0;
     }
 }

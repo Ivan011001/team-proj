@@ -1,10 +1,15 @@
 .footer {
-    position: relative;
+    /* position: relative; */
     background-color: #1E2827;
     color: #FFFFFF;
+    width: 100%;
     font-weight: 400;
     padding-top: 40px;
     padding-bottom: 20px;
+}
+
+.section-container {
+    position: relative;
 }
 
 .footer-logo {
@@ -42,8 +47,8 @@
 
 .footer-navigation {
     position: absolute;
-    top: 40px;
-    right: 20px;
+    top: 0px;
+    right: 0px;
 }
 
 .footer-navigation-list {
@@ -125,14 +130,14 @@
     }
 
     .footer-navigation {
-        top: 80px;
+        top: 0px;
         left: 349px;
     }
 
     .footer-social {
         position: absolute;
-        top: 78.31px;
-        right: 32px;
+        top: 0px;
+        right: -8px;
         margin-top: 0;
     }
 

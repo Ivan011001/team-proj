@@ -8,11 +8,8 @@
   }
 
   .header-container {
-    padding-top: 34px;
+    padding-top: 29px;
     padding-bottom: 69px;
-
-    padding-right: 15px;
-    padding-left: 15px;
   }
 
   .header-list {
@@ -25,8 +22,8 @@
 
   .header-logo {
     display: flex;
-    margin-right: 80px;
     align-items: center;
+    justify-content: space-between;
     fill: #ffffff;
   }
 
@@ -47,6 +44,8 @@
   .mobile-menu-open {
     background-color: transparent;
     border: none;
+    padding: 0;
+    line-height: 0;
   }
 
   .mobile-menu-open__svg {
@@ -86,8 +85,6 @@
 
   .mobile-menu-container {
     padding-top: 29px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .modal-nav {

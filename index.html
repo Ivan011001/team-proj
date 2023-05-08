@@ -18,6 +18,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     
     <script type="module" crossorigin src="/team-proj/assets/index-ddea107b.js"></script>
     <link rel="stylesheet" href="/team-proj/assets/index-082e7b8a.css">
@@ -247,7 +248,8 @@
 
 
       <!-- Євгенія -->
-      <section class="section-about" id="about_us">
+      <section class="section-about" id="about_us" data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
   <div class="container-about section-container">
     <div class="about-text-container">
       <h2 class="about-title">About us</h2>
@@ -277,7 +279,12 @@
 
 
       <!-- Артем -->
-      <section class="catalog-section" id="_catalog">
+      <section
+  class="catalog-section"
+  id="_catalog"
+  data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom"
+>
   <div class="section-container catalog-container">
     <h2 class="catalog-title">Catalog</h2>
     <ul class="catalog-product-list">
@@ -776,7 +783,12 @@
 
 
       <!-- Євгеній -->
-      <section class="new-watches-section">
+      <section
+  class="new-watches-section"
+  data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom"
+
+  >
   <div class="section-container new-watches-container">
     <p class="new-watches-sup-title">New watches</p>
     <h2 class="new-watches-title">
@@ -820,7 +832,12 @@
 </section>
 
       <!-- Олександр -->
-      <section class="sale-section" id="_sale">
+      <section
+  class="sale-section"
+  id="_sale"
+  data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom"
+>
   <div class="section-container">
     <h1 class="sale-title">Sale</h1>
     <div class="sale-wrapper">
@@ -1061,6 +1078,10 @@
 </div>
 
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     
   </body>
 </html>

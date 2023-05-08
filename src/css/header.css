@@ -2,6 +2,16 @@
   background-color: #141414;
 }
 
+.header-link {
+  color: #ffffff;
+  transition: color 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: #c6cdd1;
+}
+
 @media screen and (max-width: 767px) {
   .link {
     text-decoration: none;
@@ -195,6 +205,15 @@
     background-color: #1e2827;
     border-radius: 8px;
     padding: 18px 35px;
+
+    transition: color 400ms cubic-bezier(0.075, 0.82, 0.165, 1),
+      border 400ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  .header-phone:focus,
+  .header-phone:hover {
+    color: #c6cdd1;
+    border: 1px solid #ffffff;
   }
 
   .header-logo {

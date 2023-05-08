@@ -117,8 +117,6 @@
 
   .footer-container {
     padding-top: 80px;
-    padding-left: 32px;
-    padding-right: 40px;
   }
 
   .footer-logo {
@@ -174,7 +172,5 @@
 @media screen and (min-width: 1280px) {
   .footer-container {
     padding-top: 104px;
-    padding-left: 132px;
-    padding-right: 132px;
   }
 }

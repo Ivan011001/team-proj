@@ -11,8 +11,8 @@
 
 .about-title {
   font-weight: 600;
-  font-size: 32px;
-  line-height: 1.25;
+  font-size: 40px;
+  line-height: 1.1;
   letter-spacing: -0.02em;
   color: #1e2827;
 }
@@ -84,7 +84,7 @@
 
   .about-gif {
     height: 500px;
-    max-width: 895px;
+    max-width: 930px;
     margin-left: auto;
   }
 }

@@ -121,13 +121,7 @@
   stroke: rgba(255, 255, 255, 0.5);
 }
 
-.swiper-button-prev:after {
-  content: url('../img/symbol-defs.svg#icon-slider-left');
-}
 
-.swiper-button-next:after {
-  content: url('../img/symbol-defs.svg#icon-slider-right');
-}
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -428,12 +422,19 @@
   background-color: #1e2827;
 }
 
+/* .swiper-button-prev:after {
+  content: url('../img/symbol-defs.svg#icon-slider-left');
+}
+
+.swiper-button-next:after {
+  content: url('../img/symbol-defs.svg#icon-slider-right');
+} */
+
 @media screen and (max-width: 767px) {
   .swiper-main-wrapper {
     max-width: 266px;
     height: 200px;
   }
   .swiper-image-wrapper {
-
   }
 }

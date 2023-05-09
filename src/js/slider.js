@@ -1,10 +1,12 @@
-  const swiper = new swiper('.mySwiper', {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    loop: true,
-    keyboard: { enable: true },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  })
+var swiper = new Swiper('.mySwiper', {
+  spaceBetween: 0,
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'fraction',
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});

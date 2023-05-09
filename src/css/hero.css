@@ -438,3 +438,9 @@
   .swiper-image-wrapper {
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .swiper-main-wrapper {
+    justify-content: flex-end;
+  }
+}
